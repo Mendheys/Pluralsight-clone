@@ -1,0 +1,60 @@
+.container{
+    margin-top: 110px;
+    background-image: url('../../images/bg-hero.png');
+    background-color: #181818;
+    border: 1px solid #181818;
+    height: 270px;
+    text-align: center;
+    
+}
+.container>h1{
+    width: 700px;
+    margin: auto;
+    margin-top: 7%;
+}
+.input{
+    width: 1000px;
+    height: 55px;
+    background-color: rgb(56, 53, 53);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.search{
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(56, 53, 53);
+    border: none;
+}
+.sort{
+    width: 170px;
+    height: 55px;
+    margin-left: 70px;
+    border: 1px solid white;
+    background-color: #181818;
+
+}
+.sort:hover{
+    cursor: pointer;
+}
+.content{
+/* border: 1px solid red; */
+display: flex;
+gap: 100px;
+margin-top: 30px;
+}
+.div1{
+    /* border: 1px solid green; */
+    width: 320px;
+}
+.div2{
+    /* border: 1px solid green; */
+    width: 820px;
+}
+.clear{
+    width: 80%;
+    height: 55px;
+    margin-left: 10%;
+    border: 1px solid white;
+    background-color: #181818;
+}

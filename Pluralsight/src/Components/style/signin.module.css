@@ -1,0 +1,26 @@
+.container{
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+ 
+    }
+    input{
+        width: 500px;
+        height: 40px;
+        color: black;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .viewplan{
+        background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+        width: 165px;
+        height: 52px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 30px;
+        color: rgb(255, 255, 255);
+       
+    }
+    .viewplan:hover{
+        cursor: pointer;
+    }

@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding-top: 60px;
+
+}
+.clear1{
+    width: 140px;
+    height: 55px;
+    
+    border: 1px solid white;
+    background-color: #181818;
+}
+.ads{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: #1A1A1A;
+}
+.viewplan{
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    width: 165px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+.head{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
