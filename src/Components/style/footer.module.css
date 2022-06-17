@@ -1,0 +1,21 @@
+
+.container{
+background-color: black;
+margin-top: -22px;
+padding: 80px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+    border-bottom: 1px solid gray;
+}
+.flex>div>li{
+    margin-bottom: 20px;
+    color: grey;
+}
+.flex>div>li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}

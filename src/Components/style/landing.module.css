@@ -1,0 +1,80 @@
+*{
+    color: rgb(255, 255, 255);
+}
+.container{
+    border: 1px solid black;
+    background-image: url('../../images/background1.png');
+    height: 600px;
+    text-align: center;
+    
+
+    
+}
+.container>h1{
+    margin-top: 160px;
+    font-size: 56px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+.viewplan{
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    width: 165px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+.viewplan,.try:hover{
+    cursor: pointer;
+}
+.try{
+    border: 1px solid white;
+    background-color: black;
+    width: 165px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    padding: 30px;
+}
+.popToipcs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.latest{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 70px;
+}
+.keepuptodate{
+display: flex;
+justify-content: space-evenly;
+gap: 30px;
+padding: 20px;
+}
+.free{
+    background-color: black;
+    margin-top: -20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.free>h2{
+    font-size: 40px;
+}
+.free>button{
+    width: 260px;
+    height: 50px;
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    font-weight: 500;
+    margin-top: 40px;
+}
+

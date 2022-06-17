@@ -1,0 +1,35 @@
+.container{
+    text-align: center;
+    
+    margin-top: 100px;
+    padding: 30px;
+}
+.main{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+}
+.main>div>input{
+    width: 300px;
+    height: 30px;
+    background-color: #181818;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.viewplan{
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    width: 165px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+   
+}
